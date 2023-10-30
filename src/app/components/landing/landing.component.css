@@ -38,7 +38,9 @@
   background-color: #00418a;
 }
 .contenedor-products{
+  justify-content: center;
   display: flex;
+  flex-wrap: wrap;
 }
 
 /* Estilos de los productos destacados */
