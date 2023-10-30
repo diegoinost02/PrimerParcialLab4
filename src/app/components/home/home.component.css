@@ -1,0 +1,11 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+}
+.componente{
+    display: flex;
+    gap: 1rem;
+    max-width: 100%;
+}

@@ -1,0 +1,13 @@
+<div class="contenedor">
+    <div class="componente">
+        <app-view-products
+            [inputProducts]="products"
+            (productToEdit)="editProduct($event)"
+            (productToDelete)="deleteProduct($event)">
+        </app-view-products>
+        
+    </div>
+    <div class="componente">
+        <app-add-product (productAdded)="loadProducts()"></app-add-product>
+    </div>
+</div>

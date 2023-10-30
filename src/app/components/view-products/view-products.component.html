@@ -1,0 +1,26 @@
+<div class="contenedor">
+    <h2>Products</h2>
+    <table class="tabla">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Description</th>
+          <th>Price</th>
+          <th>Stock</th>
+          <th>Delete</th>
+          <th>Edit</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let product of inputProducts">
+          <td>{{ product.id }}</td>
+          <td>{{ product.description }}</td>
+          <td>{{ product.price }}</td>
+          <td>{{ product.stock }}</td>
+          <td><button (click)="deleteProduct(product.id!)">X</button></td>
+          <td><button  (click)="editProduct(product)">E</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

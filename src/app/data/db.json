@@ -1,0 +1,71 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "description": "Smartphone",
+      "price": "599.99",
+      "stock": "250"
+    },
+    {
+      "id": 2,
+      "description": "Laptop",
+      "price": "999.99",
+      "stock": "150"
+    },
+    {
+      "id": 3,
+      "description": "Smart TV",
+      "price": "799.99",
+      "stock": "100"
+    },
+    {
+      "id": 4,
+      "description": "Tablet",
+      "price": "349.99",
+      "stock": "200"
+    },
+    {
+      "id": 5,
+      "description": "Smartwatch",
+      "price": "199.99",
+      "stock": "300"
+    },
+    {
+      "id": 6,
+      "description": "Gaming Console",
+      "price": "499.99",
+      "stock": "75"
+    },
+    {
+      "id": 7,
+      "description": "Wireless Earbuds",
+      "price": "149.99",
+      "stock": "400"
+    },
+    {
+      "id": 8,
+      "description": "Portable Speaker",
+      "price": "79.99",
+      "stock": "350"
+    },
+    {
+      "id": 9,
+      "description": "Camera",
+      "price": "299.99",
+      "stock": "125"
+    },
+    {
+      "id": 10,
+      "description": "External Hard Drive",
+      "price": "129.99",
+      "stock": "275"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@gmail.com",
+      "password": "admin123"
+    }
+  ]
+}

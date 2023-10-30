@@ -1,0 +1,50 @@
+<h2 mat-dialog-title class="custom-dialog-title">Editar Producto</h2>
+
+<div mat-dialog-conten>
+    <form class="formulario" [formGroup]="formProduct" (ngSubmit)="editProduct()">
+        <fieldset>
+            <div class="campo">
+                <label for="description">
+                    Descripcion
+                </label>
+    
+                <input type="text" formControlName="description" placeholder="Descripcion" id="description">
+    
+                <div class="alerta" [hidden]="getDescription.valid || getDescription.pristine">
+                    Descripcion obligatoria
+                </div>
+            </div>
+    
+            <div class="campo">
+                <label for="price">
+                    Precio
+                </label>
+    
+                <input type="number" formControlName="price" placeholder="Precio" id="price">
+    
+                <div class="alerta" [hidden]="getPrice.valid || getPrice.pristine">
+                    Precio obligatorio
+                </div>
+            </div>
+    
+            <div class="campo">
+                <label for="stock">
+                    Stock
+                </label>
+    
+                <input type="number" formControlName="stock" placeholder="Stock" id="stock">
+    
+                <div class="alerta" [hidden]="getStock.valid || getStock.pristine">
+                    Stock obligatorio
+                </div>
+            </div>
+    
+            <button [disabled]="formProduct.invalid" type="submit">
+                Enviar
+            </button>
+            <button type="button" (click)="closeDialog()">
+                Cancelar
+            </button>
+        </fieldset>
+    </form>
+</div>

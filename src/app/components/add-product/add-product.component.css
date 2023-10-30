@@ -1,0 +1,12 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
